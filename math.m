@@ -18,7 +18,7 @@ clear;
    
 % Coefficientt of Lift 
 
-   C_L = 0.7498;
+   C_L = 0.54112833;
    
 % Coefficient of Friction 
 
