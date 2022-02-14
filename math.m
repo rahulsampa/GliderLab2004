@@ -53,7 +53,7 @@ clear;
                e_factor_optimal = e_factor(j)
                Chord_optimal = AR(j,2)
                Wing_Optimal = AR(j,3)
-               
+               j_idx = j
                
            end 
          end   
@@ -65,7 +65,6 @@ clear;
     max_chord = AR(idx, 2)
     max_wing_length = AR(idx, 3)
     C_D_min
-    AR_optimal 
     e_factor_optimal
     Chord_optimal
     Wing_Optimal
@@ -73,5 +72,5 @@ clear;
 
 
 function a = area_calc(b, L)
-    a = 2.*(b.*L);
+    a = (b.*L);
 end
