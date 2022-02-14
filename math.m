@@ -13,7 +13,7 @@ clear;
     
     
 % Drag coefficient at zero 
-   CD_0 = 0.016; 
+   CD_0 = 0.00771; 
    
    
 % Coefficientt of Lift 
