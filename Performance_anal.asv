@@ -1,0 +1,7 @@
+h = 40()
+
+%% calculating endurance
+
+
+%% calculating range
+range  = h(C_L/CD_0);
