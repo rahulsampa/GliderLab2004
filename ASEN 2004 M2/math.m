@@ -27,9 +27,6 @@ S_ref = 231.5577; %in^2
 
    C_L = 0.54112833;
    
-% Coefficient of Friction 
-
-    C_F = 0.003; 
     
 % Creating the matrix of AR with its corresponding dimensions 
     for i = 1:n
