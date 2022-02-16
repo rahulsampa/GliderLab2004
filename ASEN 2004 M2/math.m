@@ -1,5 +1,5 @@
 %% Glider Lab Oswald's Efficiency Calculator 
-%yo
+
 clc;
 clear;
 % Tracker for the number of points to look at
