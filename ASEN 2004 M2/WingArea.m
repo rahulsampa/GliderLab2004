@@ -24,7 +24,7 @@ k = 1/(pi*3.33333*.85)
 
 CL = sqrt(0.016/k)
 
-v_max_range = sqrt((2 * 2.3)/CL*1.225*S_REF) 
+v_max_range = sqrt((2 * 2.3)./(CL*1.225*S_REF)) 
 
 
 plot(Wing_Loading,v_max_range) 
